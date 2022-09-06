@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6rem;
+  list-style: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  padding: 1.5rem;
+  opacity: 0.5px;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.right-nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.list-one {
+  padding-right: 0.7rem;
+}
+.list-two {
+  padding-right: 0.7rem;
+}
+.list-three {
+  padding-right: 0.7rem;
+}
+.list-four {
+  padding-right: 0.7rem;
+}
+
+button {
+  margin-left: 0.7rem;
+  background-color: teal;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+}
+
+button:hover,
+button:focus {
+  background-color: #009999;
+}
